@@ -3,10 +3,18 @@
 <head>
     
     <title>Forms homework</title>
+    <style>
+
+        #form{
+            width: 50%;
+            margin: 0 auto;
+        }
+    </style>
 </head>
-<body style="border: 1px solid black;padding:10px;">
+<body >
     
     <form id="form">
+        <fieldset>
         <h1>Dado Tea Lunch Special</h1>
         <h3>Monday thorugh Friday</h3>
         <p style="margin: 0;">11am-3pm</p>
@@ -26,27 +34,27 @@
         <!-- Menu Sandwiches -->
         <fieldset id="menu">
             <legend>Sandwiches</legend>
-            <label for="day_1" style="font-weight:bold;">Monday</label><br>
+            <p style="font-weight:bold;">Monday</p>
             <input type="radio" name="monday" id="cheese" >
             <label for="cheese">Tomato Mozzarella</label><br>
             <input type="radio" name="monday" id="chicken_s" >
             <label for="chicken_s">Chicken Salad</label><br><br>
-            <label for="day_2" style="font-weight:bold;">Tuesday</label><br>
+            <p style="font-weight:bold;">Tuesday</p>
             <input type="radio" name="tuesday" id="salad" >
             <label for="salad">Greek salad wrap</label><br>
             <input type="radio" name="tuesday" id="toto" >
             <label for="toto">Toto Wrap</label><br><br>
-            <label for="day_3" style="font-weight:bold;">Wednesday</label><br>
+            <p style="font-weight:bold;">Wednesday</p>
             <input type="radio" name="wednesday" id="pepper" >
             <label for="pepper">Red Pepper Hummus</label><br>
             <input type="radio" name="wednesday" id="turkey" >
             <label for="turkey">Roasted Turkey</label><br><br>
-            <label for="day_4" style="font-weight:bold;">Thursday</label><br>
+            <p style="font-weight:bold;">Thursday</p>
             <input type="radio" name="thursday" id="carrot" >
             <label for="carrot">Carrot-Ginger Hummus Wrap</label><br>
             <input type="radio" name="thursday" id="egg" >
             <label for="egg">Egg Salad</label><br><br>
-            <label for="day_5" style="font-weight:bold;">Friday</label><br>
+            <p style="font-weight:bold;">Friday</p>
             <input type="radio" name="friday" id="dado" >
             <label for="dado">Dado Wrap</label><br>
             <input type="radio" name="friday" id="tuna" >
@@ -81,7 +89,7 @@
             <input type="submit" value="Place order">
        
 
-
+        </fieldset>
     </form>
     
 </body>
